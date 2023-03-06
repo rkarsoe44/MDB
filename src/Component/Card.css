@@ -1,0 +1,35 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.css";
+.Hover:hover .Hover2{
+    z-index: 1;
+    
+}
+.Hover:hover .img{
+    opacity: 40%;
+    transition: 0.5s;
+}
+.Hover2{
+    transition: 1s;
+    z-index: -1;
+}
+.one{
+    align-items: center;
+    justify-content: space-evenly;
+}
+.B{
+    border: solid black 1px;
+}
+
+  @media screen and (max-width: 400px ) {
+    .sec {
+      padding: 50px;
+    }
+    .b{
+        display: none;
+    }
+    .c{
+        padding: 10px;
+    }
+    .d{
+        padding: 20px;
+    }
+  }
