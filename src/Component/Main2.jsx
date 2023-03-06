@@ -4,6 +4,7 @@ import Detail from './Detail'
 import Home from './Home'
 import Navbar from './Navbar'
 import Search from './Search'
+import "../dist/output.css"
 
 const Main2 = () => {
   return (

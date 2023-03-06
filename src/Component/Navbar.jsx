@@ -3,6 +3,7 @@ import { IoFastFoodOutline } from "react-icons/io5";
 import { FaHome } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import "./Card.css";
+import "../dist/output.css"
 
 const Navbar = () => {
   const navi = useNavigate();

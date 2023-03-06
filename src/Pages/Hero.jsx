@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Link, Route, Routes, useNavigate } from "react-router-dom";
-import "../../dist/output.css";
+import "../dist/output.css"
 const Hero = () => {
   let [hero, setHero] = useState({});
   useEffect(() => {

@@ -2,6 +2,8 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import {  useParams } from "react-router-dom";
 import "./Card.css"
+import "../dist/output.css"
+
 const Search = () => {
   const { name } = useParams();
   const [search, setSearch] = useState();

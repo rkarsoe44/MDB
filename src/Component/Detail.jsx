@@ -3,6 +3,7 @@ import { BsYoutube } from "react-icons/bs";
 import React, { useEffect, useState } from "react";
 import "./Card.css";
 import { useParams } from "react-router-dom";
+import "../dist/output.css"
 
 const Detail = () => {
   const [DE, setDE] = useState({});

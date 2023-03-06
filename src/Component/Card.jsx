@@ -3,7 +3,7 @@ import { BsSearch } from "react-icons/bs";
 import { Link, useNavigate } from "react-router-dom";
 
 import "./Card.css"
-import "../../dist/output.css"
+import "../dist/output.css"
 const Card = ({ image, name, id }) => {
   const Navigate = useNavigate();
   const Hell=() => {
